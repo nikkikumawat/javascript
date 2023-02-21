@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.wrapper{
+   background-color: black;
+   height: 100vh;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+} 
+.offsetdiv{
+    width: 50%;
+    height: 400px;                                 
+    background-color: aliceblue;                    
+    border: 1px solid white;
+    position: relative;
+
+}
+.heading{
+    border: 1px solid lightpink;
+    height: 40px;
+    width: 100%;
+    background-color: lightpink;
+}
+.heading button{
+    position: absolute;
+    right: 4px;
+    border: 1px solid black;
+    top: 4px;
+    background-color: blue;
+    color: white;
+    font-size: 22px;
+}
+.canvas{
+    height: 360px;
+    position: relative;
+}
+.dot{
+    height: 10px;
+    width: 10px;
+    background-color: black;
+    border-radius: 15px;
+    position: absolute;
+}

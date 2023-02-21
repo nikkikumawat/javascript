@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lora', serif;
+}
+#wrapper {
+    background: linear-gradient(to right, #03001e, #7303c0, #ec38bc, #fdeff9);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+p {
+    font-size: 80px;
+}
+.holi{
+    height: 100vh;
+    display: none;
+    background: linear-gradient(to right, #000046, #1cb5e0);
+    justify-content: center;
+    align-items: center;
+}
+.holi h1{
+    color: burlywood;
+    font-size: 100px;
+}
